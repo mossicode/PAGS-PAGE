@@ -39,7 +39,7 @@ export default function App() {
                 className="flex justify-between items-center "
                 
               >
-                <div className="font-worksans font-semibold md:text-[15px] text-sm pe-3">
+                <div className="font-worksans font-semibold md:text-[15px] text-sm pe-3 hover:text-purple-600">
                   {item.title}
                 </div>
                 <div className='cursor-pointer' onClick={() => toggleItem(item.id)} >{isOpen ? <Minus /> : <PlusIcon />}</div>
